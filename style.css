@@ -1,0 +1,70 @@
+h1{
+    color:rgb(23, 68, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(23, 68, 53);
+}
+body{
+    background-color: rgb(23, 68, 53);
+}
+.header{
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color: rgb(245, 245, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading2{
+    color: rgb(245, 245, 220);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    color: rgb(23, 68, 53);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    margin-right: 50px;
+}
+a:link{
+    color: rgb(23, 68, 53);
+}
+a:visited{
+    color:#007000;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.item img{
+    border-radius: 100px;
+    border-color: aqua;
+}
